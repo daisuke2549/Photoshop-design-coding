@@ -1,4 +1,17 @@
-body{
-   font-size: 16px;;
-   font-family:"小塚ゴシック Pr6N Courier New', Courier, monospace";
+@charset "UTF-8";
+body {
+  font-size: 16px;
+  font-family: "小塚ゴシックQuicksand’, ‘ヒラギノ角ゴシック’, ‘メイリオ’ ,sans-serif";
+  color: #333333;
+  line-height: 1.5;
 }
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/*  ヘッダー  */
