@@ -3,6 +3,8 @@ body{
    font-family:"小塚ゴシックQuicksand’, ‘ヒラギノ角ゴシック’, ‘メイリオ’ ,sans-serif";
    color:rgb(51,51,51);
    line-height: 1.5;
+   margin:0px;
+   padding:0px;
 }
 
 ul{
@@ -13,5 +15,29 @@ img{
    width:100%;
 }
 
+h1{
+   font-size:36px;
+   color:rgb(93,60,40);
+   margin:0px;
+   padding:0px;
+}
+h2, h3{
+   text-align: center;
+}
+
 
 /*  ヘッダー  */
+.header-top{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.header-right-nav  nav ul{
+   display: flex;
+}
+
+
+.header-right-nav  nav ul li {
+   display: fl
+}
