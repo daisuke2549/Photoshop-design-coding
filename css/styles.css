@@ -23,7 +23,7 @@ h1 {
   padding: 0px;
 }
 
-h2, h3 {
+h2 {
   text-align: center;
 }
 
@@ -39,4 +39,44 @@ h2, h3 {
 
 .header-right-nav nav ul li {
   display: fl;
+}
+
+/*  title */
+.title p {
+  max-width: 792px;
+  margin: 0 auto;
+}
+
+/*  title1 */
+.image-items {
+  display: flex;
+}
+
+.image-item {
+  max-width: 400px;
+  margin: 30px;
+}
+
+.image-item img {
+  max-width: 400px;
+}
+
+/*  title2 */
+.title2-item {
+  display: flex;
+}
+
+.title2-item img {
+  max-width: 613px;
+}
+
+.title2-item-reverse {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+/*  title4 */
+.title4-left-sns img {
+  width: 33px;
+  height: 33px;
 }
