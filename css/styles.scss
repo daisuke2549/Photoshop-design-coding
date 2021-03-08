@@ -23,6 +23,9 @@ h1{
 }
 h2{
    text-align: center;
+   font-size:30px;
+   letter-spacing: 0.2em;
+   color:rgb(93,60,40);
 }
 
 
@@ -35,29 +38,48 @@ h2{
 
 .header-right-nav  nav ul{
    display: flex;
+   margin-right:160px;
 }
 
 
 .header-right-nav  nav ul li {
-   display: fl
+    padding-left:50px;
 }
 
 
 /*  title */
 .title {
+
+   h2{
+      padding-top: 170px;
+      padding-bottom: 50px;
+   }
    
    p{
    max-width:792px;
    margin:0 auto;
+   line-height: 2.5;
+   padding-bottom: 150px;
 
   }
 } 
 
 
 /*  title1 */
+.title1{
+    background-color: rgb(252,245,241);
+
+    h2{
+       padding-top: 115px;
+       padding-bottom: 60px;
+    }
+}
+
+
 
 .image-items{
    display: flex;
+   justify-content: center;
 }
 
 
@@ -65,6 +87,10 @@ h2{
 .image-item{
      max-width:400px;
      margin:30px;
+
+     h3{
+        font-size:24px;
+     }
 
      img{
       max-width:400px;
@@ -75,6 +101,7 @@ h2{
 
 .title2-item{
    display: flex;
+   justify-content: center;
       img{
          max-width: 613px;
       }
@@ -85,8 +112,76 @@ h2{
    flex-flow: row-reverse;
 }
 
+.title2-item-comment{
+   max-width:600px;
+
+}
+
+
+.title2-button button {
+   color:rgb(255,255,255);
+   background-color: rgb(93,60,40);
+   padding:25px 95px;
+   letter-spacing: 0.2em;
+}
+
+
+
+/*  title3 */
+
+.title3{
+   background-color: rgb(252,245,241);
+
+   h2{
+      padding-top: 170px;
+      padding-bottom: 50px;
+   }
+}
+
+.title3-button button {
+   color:rgb(255,255,255);
+   background-color: rgb(93,60,40);
+   padding:25px 95px;
+   letter-spacing: 0.2em;
+   margin-top: 80px;
+   margin-bottom: 118px;
+}
+
+.title3-button{
+   text-align: center;
+}
+
+
+
+.title3-item{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+
+.title3-item-date{
+   margin:0px;
+}
+.title3-item-title{
+   margin:0px;
+   margin-left: 80px;
+}
+
+
+
 
 /*  title4 */
+.title4-item{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 65px;
+   margin-bottom: 65px;
+}
+
+.title4-left{
+   padding-top: 100px;
+}
+
 
 
 .title4-left-sns{
@@ -96,4 +191,19 @@ h2{
         width:33px;
         height:33px;
      }
+}
+
+
+
+/*  フッター */
+footer{
+   background-color: rgb(93,60,40);
+   text-align: center;
+   p{
+     margin: 0%;
+     color: rgb(254,254,254);
+     font-size:12px;
+     padding:30px;
+
+   }
 }
